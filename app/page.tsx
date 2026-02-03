@@ -1,3 +1,4 @@
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -14,6 +15,9 @@ export default function Home() {
             </a>
             <a href="#skills" className="text-gray-600 hover:text-gray-900">
               Skills
+            </a>
+            <a href="#hobbies" className="text-gray-600 hover:text-gray-900">
+              Hobbies
             </a>
             <a href="#projects" className="text-gray-600 hover:text-gray-900">
               Projects
@@ -339,6 +343,62 @@ export default function Home() {
                 <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">
                   Cypress
                 </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Hobbies Section */}
+      <section id="hobbies" className="py-20 px-4 bg-gray-50">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl font-bold text-gray-900 mb-8">Hobbies & Interests</h2>
+          <p className="text-lg text-gray-700 mb-8">
+            When I'm not coding, I enjoy building LEGO sets and other creative projects.
+            Here's my growing collection:
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Vintage Camper */}
+            <div className="bg-white rounded-lg overflow-hidden shadow-lg">
+              <img
+                  src="/camper.jpg"
+                  alt="Vintage Camper LEGO Build"
+                  className="w-full h-64 object-cover"
+              />
+              <div className="p-4">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Vintage Camper</h3>
+                <p className="text-gray-600">
+                  A detailed retro camper build complete with flamingo lawn ornaments and a miniature grill.
+                </p>
+              </div>
+            </div>
+
+            {/* Ship in a Bottle */}
+            <div className="bg-white rounded-lg overflow-hidden shadow-lg">
+              <img
+                  src="/bottle-ship.jpg"
+                  alt="Ship in a Bottle LEGO Build"
+                  className="w-full h-64 object-cover"
+              />
+              <div className="p-4">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Ship in a Bottle - Leviathan</h3>
+                <p className="text-gray-600">
+                  An intricate ship-in-a-bottle build featuring the Leviathan with detailed rigging and ocean effects.
+                </p>
+              </div>
+            </div>
+
+            {/* Placeholder for future builds */}
+            <div className="bg-white rounded-lg overflow-hidden shadow-lg border-2 border-dashed border-gray-300">
+              <div className="h-64 flex items-center justify-center bg-gray-50">
+                <p className="text-gray-400 text-lg">Next Build Coming Soon...</p>
+              </div>
+              <div className="p-4">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">More Builds on the Way</h3>
+                <p className="text-gray-600">
+                  Stay tuned for more creative projects!
+                </p>
               </div>
             </div>
           </div>
