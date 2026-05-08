@@ -450,10 +450,10 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-700 font-medium"
                 >
-                  View on GitHub →
+                  View on GitHub &rarr;
                 </a>
                 <a href="#" className="text-blue-600 hover:text-blue-700 font-medium">
-                  Live Demo →
+                  Live Demo &rarr;
                 </a>
               </div>
             </div>
@@ -504,7 +504,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-700 font-medium"
                 >
-                  View on GitHub →
+                  View on GitHub &rarr;
                 </a>
                 
                   href="https://job-tracker-bs7i.vercel.app"
@@ -512,7 +512,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-700 font-medium"
                 >
-                  Live Demo →
+                  Live Demo &rarr;
                 </a>
               </div>
             </div>
