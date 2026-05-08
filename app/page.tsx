@@ -458,6 +458,65 @@ export default function Home() {
               </div>
             </div>
 
+            {/* H-1B Job Tracker */}
+            <div className="border border-gray-200 rounded-lg p-6 bg-white hover:shadow-lg transition">
+              <div className="flex items-center gap-3 mb-3">
+                <h3 className="text-2xl font-bold text-gray-900">H-1B Job Tracker</h3>
+                <span className="bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full text-xs font-medium">AI-Powered</span>
+              </div>
+              <p className="text-gray-700 mb-4">
+                A personal job search dashboard built for H-1B visa holders. Discovers roles in non-traditional
+                industries (HealthTech, FinTech, Aerospace, Gaming, and more), scores them against your resume
+                using AI, and tracks your full application pipeline — all with cross-device sync.
+              </p>
+
+              <div className="mb-4">
+                <h4 className="font-semibold text-gray-800 mb-2">Key Features:</h4>
+                <ul className="list-disc list-inside text-gray-700 space-y-1 ml-2">
+                  <li>AI-researched company discovery across 12 non-traditional industries</li>
+                  <li>Live job postings from LinkedIn, Indeed, and Glassdoor via JSearch API</li>
+                  <li>Resume match scoring (60–95) using Google Gemini AI</li>
+                  <li>H-1B sponsorship filtering with 300+ verified employer list</li>
+                  <li>Contract & C2C roles tab with separate pipeline tracking</li>
+                  <li>PDF resume upload with cross-device sync via Upstash Redis</li>
+                  <li>Vercel cron job for automatic daily refresh</li>
+                </ul>
+              </div>
+
+              <div className="mb-4">
+                <h4 className="font-semibold text-gray-800 mb-2">Technologies Used:</h4>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Next.js</span>
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">TypeScript</span>
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">React</span>
+                  <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Google Gemini AI</span>
+                  <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Upstash Redis</span>
+                  <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">JSearch API</span>
+                  <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Vercel</span>
+                  <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Vercel Cron</span>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                
+                  href="https://github.com/hemu-codes/job-tracker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-700 font-medium"
+                >
+                  View on GitHub →
+                </a>
+                
+                  href="https://job-tracker-bs7i.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-700 font-medium"
+                >
+                  Live Demo →
+                </a>
+              </div>
+            </div>
+
             {/* Placeholder for future projects */}
             <div className="border border-dashed border-gray-300 rounded-lg p-6 bg-white text-center">
               <h3 className="text-xl font-semibold text-gray-600 mb-2">More Projects Coming Soon</h3>
